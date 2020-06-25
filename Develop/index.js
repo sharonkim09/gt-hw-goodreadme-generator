@@ -1,5 +1,5 @@
 // require fs
-// const fs = require("./utils/generateMarkdown.js")
+const generateMarkdown = require("./utils/generateMarkdown.js")
 const fs = require("fs");
 const inquirer= require("inquirer");
 // require inquirer 
