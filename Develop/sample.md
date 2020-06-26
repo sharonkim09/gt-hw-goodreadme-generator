@@ -1,8 +1,8 @@
 
-# Good README Generator
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+# Good README.md
+![License](https://img.shields.io/badge/license-BSD-blue.svg)
 ## Description 
-This is a fun and short nodejs assignment using command line
+This is a fun and short readme generator using nodejs in command line.
 
 ## Table of Contents
   * [Installation](#installation})
@@ -19,13 +19,13 @@ npm install
 node index.js
 
 ## Usage 
-nothing
+Clone the repo and open in terminal
 
 ## Contribution 
-nothing
+Not accepting contributors at this time.
 
 ## License
-MIT
+BSD
 
 ## Questions 
 * [Link to Github Repo](https://github.com/sharonkim09)
