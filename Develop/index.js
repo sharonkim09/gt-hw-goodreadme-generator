@@ -66,7 +66,6 @@ function writeToFile(fileName, data) {
   // use fs package
   fs.writeFile("sample.md", data, function (err) {
     if (err) {
-//       // console.log("You have an error")
       throw err;
     }
     console.log("Successfully wrote into file!");
@@ -77,12 +76,9 @@ function writeToFile(fileName, data) {
 function init() {
   // use inquirer package
   inquirer.prompt(questions).then(function (data) {
-    console.log(data);
     writeToFile("sample.md",generateMarkdown(data))
-          
   });
 }
-// console.log(response)
+
 // function call to initialize program
-// writeToFile();
 init();
