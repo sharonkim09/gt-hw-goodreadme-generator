@@ -1,8 +1,8 @@
 
-# Good README
-![License](https://img.shields.io/badge/license-Apache-blue.svg)
+# Good README Generator
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Description 
-This is a fun and short in command line application.
+This is a fun and short nodejs assignment using command line
 
 ## Table of Contents
   * [Installation](#installation})
@@ -22,10 +22,10 @@ node index.js
 nothing
 
 ## Contribution 
-none
+nothing
 
 ## License
-Apache
+MIT
 
 ## Questions 
 * [Link to Github Repo](https://github.com/sharonkim09)

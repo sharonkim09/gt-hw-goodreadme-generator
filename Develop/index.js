@@ -62,31 +62,23 @@ const questions = [
 ];
 
 // function to write README file
-// function writeToFile(fileName, data) {
+function writeToFile(fileName, data) {
   // use fs package
-//   fs.writeFile("sample.md", "what we want to write", function (err) {
-//     if (err) {
-//       // console.log("You have an error")
-//       throw err;
-//     }
-//     console.log("Successfully wrote into file!");
-//   });
-// }
+  fs.writeFile("sample.md", data, function (err) {
+    if (err) {
+      throw err;
+    }
+    console.log("Successfully wrote into file!");
+  });
+}
 
 // function to initialize program
 function init() {
   // use inquirer package
   inquirer.prompt(questions).then(function (data) {
-    // console.log(response);
-    fs.writeFile("sample.md", generateMarkdown(data), function (err) {
-      if (err) {
-        throw err;}
-        console.log("Successfully wrote into file!");
-      })
-          
+    writeToFile("sample.md",generateMarkdown(data))
   });
 }
-// console.log(response)
+
 // function call to initialize program
-// writeToFile();
 init();
