@@ -1,25 +1,33 @@
 
-# Good README.md Generator
-
+# Good README
+![License](https://img.shields.io/badge/license-Apache-blue.svg)
 ## Description 
-This is a quick and run read me project. 
+This is a fun and short in command line application.
 
 ## Table of Contents
   * [Installation](#installation})
   * [Test](#test)
   * [Usage](#usage)
   * [Contribution](#contribution)
+  * [License](#license)
+  * [Questions](#questions)
   
 ## Installation 
-npm install 
+npm install
 
 ## Test 
 node index.js
 
 ## Usage 
-* [Link to Github Repo](https://github.com/sharonkim09)
-
-Clone the repo and open in terminal 
+nothing
 
 ## Contribution 
-Not accepting any contributors. 
+none
+
+## License
+Apache
+
+## Questions 
+* [Link to Github Repo](https://github.com/sharonkim09)
+* For additional questions, contact me at sharonkim1709@gmail.com
+
