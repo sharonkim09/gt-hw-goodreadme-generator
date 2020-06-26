@@ -18,8 +18,8 @@ This is a command-line application that dynamically generates a good README.md f
 
 ## Usage
 
-Video of readme generator:
-
+Gif of readme generator:
+![Readme generator](./Develop/gif/readme-recording.gif)
 
 
 ## Credits
